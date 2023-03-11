@@ -10,24 +10,25 @@
 
 .container {
     background: red;
-    overflow: hidden;
+    display: flex;
+    height: 60px;
+    align-items: center;
+    flex-direction: row-reverse;
 }
 
 .menu {
+    text-align: center;
     background: blue;
-    float: left;
     width: 20%;
-    height: 40px;
 }
 
 .content {
+    text-align: center;
     background: violet;
-    float: left;
     width: 80%;
 }
 
 .footer {
-    clear: both;
     background: orange;
     height: 30px;
 }
